@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sign Up | Individual</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="content-wrapper">
+      <div class="left-pane">
+        <img src="/img/Logo.png" alt="Logo" class="logo" width="100"/>
+        <h1>For Individuals</h1>
+        <p>
+          Start benefiting from the wellness experience. For companies looking on
+          increasing productivity, and improving organization wellness.
+        </p>
+      </div>
+
+      <form class="form-card">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" placeholder="Tolu" />
+          </div>
+          <div class="form-group">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" placeholder="" />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="gender">Gender</label>
+            <select id="gender">
+              <option>Select here</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="weight">Weight (KG)</label>
+            <input type="text" id="weight" placeholder="Enter Weight" />
+          </div>
+          <div class="form-group">
+            <label for="height">Height (CM)</label>
+            <input type="text" id="height" placeholder="Enter height here.." />
+          </div>
+        </div>
+
+        <div class="form-group full">
+          <label for="activity">Activity Level</label>
+          <select id="activity">
+            <option>Select here</option>
+          </select>
+        </div>
+
+        <div class="form-group full">
+          <label for="password">Password</label>
+          <input type="password" id="password" />
+        </div>
+
+        <button type="submit" class="btn-register">Register</button>
+
+        <p class="terms-text">
+          By clicking Register, you agree to our
+          <a href="#">Terms of Use</a> and our <a href="#">Privacy Policy</a>
+        </p>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

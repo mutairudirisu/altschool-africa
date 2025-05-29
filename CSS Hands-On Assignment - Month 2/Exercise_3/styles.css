@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #b5b3e7;
+    font-family: 'Georgia', serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .card-wrapper {
+    padding: 1rem;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 10px;
+    /* overflow: hidden; */
+    max-width: 350px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    position: relative;
+  }
+  
+  .badge {
+    position: absolute;
+    z-index: 1;
+    top: 12px;
+    left: -12px;
+    background-color: #fff6c5;
+    color: #000;
+    font-weight: bold;
+    padding: 10px 12px;
+    border-radius: 8px 20px 20px 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    font-size: 0.85rem;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .card-content {
+    padding: 1.2rem;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .series {
+    font-size: 0.9rem;
+    color: #666;
+    font-weight: normal;
+  }
+  
+  .card-description {
+    font-size: 0.9rem;
+    color: #111;
+    line-height: 1.5;
+  }
+  

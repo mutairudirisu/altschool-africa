@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #111;
+  background-color: #f8faff;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.feat
+
+/* Navbar */
+.navbar {
+  background: #fff;
+  padding: 2rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+}
+
+.auth-buttons a {
+  margin-left: 1rem;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+.login {
+  color: #0066ff;
+}
+
+.signup {
+  background-color: #0066ff;
+  color: #fff;
+  border-radius: 50%;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 4rem 1rem 0 1rem;
+  background: linear-gradient(to right, #f9f9ff, #eef3fc);
+}
+
+.hero h1 {
+  font-size: 2.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+  font-weight: 700;
+}
+
+.hero .highlight {
+  color: #0066ff;
+}
+
+.hero p {
+  margin: 1rem 0 2rem;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.cta {
+  background: #0066ff;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.learn {
+  color: #0066ff;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid #0066ff;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+/* Features */
+.features {
+  padding: 4rem 1rem;
+  background-color: #fff;
+  text-align: center;
+}
+
+.features .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.One-stop {
+    font-size: 30px;
+    display: flex;
+    align-items: start;
+}
+
+.pos {
+    color: #0066ff;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+}
+
+.stats div h3 {
+  font-size: 1.8rem;
+  color: #0066ff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+}
+
+.grid div h4 {
+  font-size: 1.2rem;
+  color: #111;
+  margin-bottom: 0.5rem;
+}
+
+/* Pricing */
+.pricing {
+  background: #f0f4ff;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.pricing-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  width: 250px;
+  text-align: left;
+}
+
+.featured {
+  border: 2px solid #0066ff;
+}
+
+.card ul {
+  list-style: none;
+  margin-top: 1rem;
+  padding: 0;
+}
+
+.card ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* FAQs */
+.faqs {
+  padding: 4rem 1rem;
+}
+
+.faq-item {
+  margin-bottom: 2rem;
+}
+
+.faq-item h4 {
+  font-size: 1.1rem;
+  color: #111;
+}
+
+.faq-item p {
+  color: #666;
+}
+
+/* Footer */
+.footer {
+  background: #111;
+  color: #eee;
+  padding: 3rem 1rem;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer h4 {
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li a {
+  color: #ccc;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.footer ul li a:hover {
+  color: #fff;
+}
+
+.footer p {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #aaa;
+}

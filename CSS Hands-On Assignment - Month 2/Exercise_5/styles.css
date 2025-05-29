@@ -1,0 +1,276 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #f5f8fa;
+  color: #1d2c3c;
+  line-height: 1.5;
+  padding: 2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+  width: 100%;
+  padding-bottom: 20px;
+ 
+}
+
+.logo {
+  height: 40px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav-links a,
+.account-btn {
+  text-decoration: none;
+  color: #1d2c3c;
+  font-weight: 500;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.account-btn {
+  padding: 0.5rem 1rem;
+  border: 1px solid #1d2c3c;
+  border-radius: 4px;
+}
+
+.checkout-container {
+  display: flex;
+  justify-content: center;
+  
+ 
+}
+
+.checkout-card {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  /* max-width: 50%; */
+  max-width: 70%;
+  background: white;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  /* overflow: hidden; */
+}
+
+.form-section {
+  flex: 2;
+  padding: 3rem;
+  border-right: 1px solid #e0e6ea;
+}
+
+.sidebar {
+  flex: 1;
+  background: #1179bf;
+  color: white;
+  padding: 3rem;
+}
+
+.checkout {
+    text-shadow: 0 5px 10px rgb(176, 170, 170);
+}
+
+h2 {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.section-number {
+  /* background: #1179bf; */
+  color: #1179bf ;
+  border: 2px solid #1179bf;
+  border-radius: 50%;
+  box-shadow: 0 5px 10px rgb(188, 182, 182);
+  width: 26px;
+  height: 26px;
+    font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.input-row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+input,
+.credit-card-inputs input {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  background-color: #EDEFF2;
+}
+
+input:focus {
+  border-color: #1179bf;
+  outline: none;
+}
+
+.full {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.credit-card-inputs {
+  display: flex;
+  gap: 1rem;
+}
+
+.buy-btn {
+  background: #038e7d;
+  color: white;
+  border: none;
+  padding: 1rem;
+  width: 100%;
+  font-size: 1rem;
+  margin-top: 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.buy-btn:hover {
+  background: #026e5f;
+}
+
+.support-note {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #646e7a;
+  text-align: center;
+}
+
+.support-note a {
+  color: #1179bf;
+  text-decoration: none;
+  
+}
+
+.footer-note {
+  margin-top: 3rem;
+  font-size: 0.7rem;
+  color: white;
+  text-align: center;
+  
+}
+
+.footer-note p {
+  color: white;
+  background-color: #a2a6ac;
+  display: inline-block;
+  padding: 6px;
+  border-radius: 8px;
+}
+
+.footer-note span {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.sidebar h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.price {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.price sup {
+  font-size: 1rem;
+  vertical-align: top;
+}
+
+.price span {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.renew {
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+
+.features {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 1.5rem;
+}
+
+.features li {
+  margin-bottom: 0.5rem;
+  padding-left: 1rem;
+  position: relative;
+}
+
+.features li::before {
+  content: "✔";
+  color: white;
+  position: absolute;
+  left: 0;
+  border: 1px solid #1179bf;
+}
+
+.switch {
+  font-size: 0.9rem;
+  margin-bottom: 2rem;
+}
+
+.switch a {
+  color: white;
+  text-decoration: underline;
+}
+
+.testimonial {
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
+.user {
+  margin-top: 1rem;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.user img {
+    width: 50px;
+    border-radius: 50%;
+}
